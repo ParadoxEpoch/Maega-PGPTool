@@ -57,144 +57,84 @@ Namespace My
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public Property Pub1Path() As String
+        Public Property Public1Path() As String
             Get
-                Return CType(Me("Pub1Path"),String)
+                Return CType(Me("Public1Path"),String)
             End Get
             Set
-                Me("Pub1Path") = value
+                Me("Public1Path") = value
             End Set
         End Property
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public Property Pri1Path() As String
+        Public Property Public2Path() As String
             Get
-                Return CType(Me("Pri1Path"),String)
+                Return CType(Me("Public2Path"),String)
             End Get
             Set
-                Me("Pri1Path") = value
+                Me("Public2Path") = value
             End Set
         End Property
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public Property Pub2Path() As String
+        Public Property Public3Path() As String
             Get
-                Return CType(Me("Pub2Path"),String)
+                Return CType(Me("Public3Path"),String)
             End Get
             Set
-                Me("Pub2Path") = value
+                Me("Public3Path") = value
             End Set
         End Property
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public Property Pri2Path() As String
+        Public Property Private1Path() As String
             Get
-                Return CType(Me("Pri2Path"),String)
+                Return CType(Me("Private1Path"),String)
             End Get
             Set
-                Me("Pri2Path") = value
+                Me("Private1Path") = value
             End Set
         End Property
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public Property Pub3Path() As String
+        Public Property Private2Path() As String
             Get
-                Return CType(Me("Pub3Path"),String)
+                Return CType(Me("Private2Path"),String)
             End Get
             Set
-                Me("Pub3Path") = value
+                Me("Private2Path") = value
             End Set
         End Property
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public Property Pri3Path() As String
+        Public Property Private3Path() As String
             Get
-                Return CType(Me("Pri3Path"),String)
+                Return CType(Me("Private3Path"),String)
             End Get
             Set
-                Me("Pri3Path") = value
+                Me("Private3Path") = value
             End Set
         End Property
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public Property Key1Name() As String
+         Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
+        Public Property FirstRun() As Boolean
             Get
-                Return CType(Me("Key1Name"),String)
+                Return CType(Me("FirstRun"),Boolean)
             End Get
             Set
-                Me("Key1Name") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public Property Key2Name() As String
-            Get
-                Return CType(Me("Key2Name"),String)
-            End Get
-            Set
-                Me("Key2Name") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public Property Key3Name() As String
-            Get
-                Return CType(Me("Key3Name"),String)
-            End Get
-            Set
-                Me("Key3Name") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property Key1Enabled() As Boolean
-            Get
-                Return CType(Me("Key1Enabled"),Boolean)
-            End Get
-            Set
-                Me("Key1Enabled") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property Key2Enabled() As Boolean
-            Get
-                Return CType(Me("Key2Enabled"),Boolean)
-            End Get
-            Set
-                Me("Key2Enabled") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property Key3Enabled() As Boolean
-            Get
-                Return CType(Me("Key3Enabled"),Boolean)
-            End Get
-            Set
-                Me("Key3Enabled") = value
+                Me("FirstRun") = value
             End Set
         End Property
     End Class
