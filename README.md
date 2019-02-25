@@ -13,4 +13,5 @@ BouncyCastle, ChoPGP, MaterialSkin
 
 ---
 
-#### Feel free to contribute to the code, fork it, or do whatever the fuck you want with it.
+#### Feel free to contribute to the code, fork it, or do whatever you want with it.
+#### Licensed under WTFPL
