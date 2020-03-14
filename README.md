@@ -15,3 +15,7 @@ BouncyCastle, ChoPGP, MaterialSkin
 
 #### Feel free to contribute to the code, fork it, or do whatever you want with it.
 #### Licensed under WTFPL
+
+---
+
+#### This project is very old, very messy and written very poorly. It works, but please don't use it as an example to learn from.
